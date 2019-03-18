@@ -1,1 +1,1 @@
-include ':app', ':headfirst-designpattern'
+include ':app', ':headfirst-designpattern', ':imooc-designpattern'
