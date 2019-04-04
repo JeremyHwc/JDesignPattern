@@ -25,5 +25,4 @@ public class JavaCourse implements ICourse{
     public Double getPrice() {
         return this.price;
     }
-
 }
