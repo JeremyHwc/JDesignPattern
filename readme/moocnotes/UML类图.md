@@ -40,7 +40,7 @@
 ### 5. UML时序图
     (1)Sequence Diagram：是显示对象之间交互的图，这些对象是按时间顺序排列的。
     (2)时序图中包括的建模元素主要有：对象（Actor）、生命线（LifeLine）、控制焦点（Focus of control）、消息（Message）等。
-<img src="https://github.com/JeremyHwc/JDesignPattern/blob/master/readme/moocnotes/UML%E5%9B%BE/UML%E6%97%B6%E5%BA%8F%E5%9B%BE.jpg" width="100%" height="300"/>
+<img src="https://github.com/JeremyHwc/JDesignPattern/blob/master/readme/moocnotes/UML%E5%9B%BE/UML%E6%97%B6%E5%BA%8F%E5%9B%BE.jpg" width="100%" height="500"/>
 
 ### 6. 记忆技巧
     (1)UML箭头方向：从子类指向父类(注意：可能会认为子类是以父类为基础的，箭头应从父类指向子类)；
