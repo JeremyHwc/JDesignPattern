@@ -2,6 +2,7 @@ package com.geely.design.principle.singleresponsibility;
 
 /**
  * Created by geely
+ * 该类的封装就不满足单一职责原则
  */
 public class Bird {
     public void mainMoveMode(String birdName){

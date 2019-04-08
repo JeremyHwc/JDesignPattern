@@ -2,6 +2,8 @@ package com.geely.design.principle.singleresponsibility;
 
 /**
  * Created by geely
+ *
+ * 方法单一职责原则
  */
 public class Method {
     private void updateUserInfo(String userName,String address){
