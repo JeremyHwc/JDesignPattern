@@ -42,6 +42,9 @@
     (2)时序图中包括的建模元素主要有：对象（Actor）、生命线（LifeLine）、控制焦点（Focus of control）、消息（Message）等。
 <img src="https://github.com/JeremyHwc/JDesignPattern/blob/master/readme/moocnotes/UML%E5%9B%BE/UML%E6%97%B6%E5%BA%8F%E5%9B%BE.jpg" width="100%" height="500"/>
 
+### 6. UML类图
+    类名：正常实现类用正常体表示；抽象类用斜体表示类名；接口加两个尖括号，中间加上字母interface
+<img src="https://github.com/JeremyHwc/JDesignPattern/blob/master/readme/moocnotes/UML%E5%9B%BE/UML%E6%97%B6%E5%BA%8F%E5%9B%BE.jpg" width="894" height="721"/>
 ### 6. 记忆技巧
     (1)UML箭头方向：从子类指向父类(注意：可能会认为子类是以父类为基础的，箭头应从父类指向子类)；
        定义子类时需要通过extends关键字指定父类，子类一定是知道父类定义的，但父类并不知道子类的定义；
