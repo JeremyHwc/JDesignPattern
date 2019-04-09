@@ -10,7 +10,7 @@ public class JavaDiscountCourse extends JavaCourse {
     }
 
     /*@Override
-    public Double getPrice() {
+    public Double getPrice() {//如果这样写的话，就不满足里式替换原则
         return super.getPrice() * 0.8;
     }*/
 

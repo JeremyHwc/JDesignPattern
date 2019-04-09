@@ -4,6 +4,10 @@ package com.geely.design.pattern.creational.simplefactory;
  * Created by geely
  */
 public class VideoFactory {
+
+    /**
+     * 弥补了getVideo(String type)的弊端，从一定程度上满足开闭原则
+     */
     public Video getVideo(Class c){
         Video video = null;
         try {
