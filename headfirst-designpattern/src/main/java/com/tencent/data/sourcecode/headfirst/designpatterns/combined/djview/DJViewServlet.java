@@ -1,8 +1,13 @@
 package com.tencent.data.sourcecode.headfirst.designpatterns.combined.djview;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
+
 import java.io.*;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 public class DJViewServlet extends HttpServlet {
 
@@ -59,7 +64,7 @@ public class DJViewServlet extends HttpServlet {
 
 		request.setAttribute("beatModel", beatModel);
 
-		RequestDispatcher dispatcher = 
+		RequestDispatcher dispatcher =
 				request.getRequestDispatcher("/djview.jsp");
 		dispatcher.forward(request, response);
 

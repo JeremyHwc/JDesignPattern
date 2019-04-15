@@ -1,6 +1,6 @@
 package com.geely.design.pattern.behavioral.chainofresponsibility;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * Created by geely

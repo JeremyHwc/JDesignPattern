@@ -5,15 +5,13 @@ import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 /**
  * Created by geely
  */
-public class DynamicDataSource extends AbstractRoutingDataSource {
-    @Override
-    protected Object determineCurrentLookupKey() {
-        return DataSourceContextHolder.getDBType();
-    }
+//public class DynamicDataSource extends AbstractRoutingDataSource {
+//    @Override
+//    protected Object determineCurrentLookupKey() {
+//        return DataSourceContextHolder.getDBType();
+//    }
 
-
-
-//    <bean id="db0" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+    //    <bean id="db0" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 //        <property name="driverClassName" value="${db.driverClassName}"/>
 //        <property name="url" value="${db.url}"/>
 //        <property name="username" value="${db.username}"/>
@@ -96,4 +94,4 @@ public class DynamicDataSource extends AbstractRoutingDataSource {
 //	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 //		<property name="dataSource" ref="dataSource" />
 //	</bean>
-}
+//}
