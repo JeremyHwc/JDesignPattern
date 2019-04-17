@@ -24,11 +24,11 @@ public class Test {
 //        System.out.println("main thread"+ThreadLocalInstance.getInstance());
 //        System.out.println("main thread"+ThreadLocalInstance.getInstance());
 
-        Thread t1 = new Thread(new T());
-        Thread t2 = new Thread(new T());
-        t1.start();
-        t2.start();
-        System.out.println("program end");
+//        Thread t1 = new Thread(new T());
+//        Thread t2 = new Thread(new T());
+//        t1.start();
+//        t2.start();
+//        System.out.println("program end");
 
 //        HungrySingleton instance = HungrySingleton.getInstance();
 //        EnumInstance instance = EnumInstance.getInstance();
@@ -40,20 +40,20 @@ public class Test {
 //        File file = new File("singleton_file");
 //        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));
 //
-////        HungrySingleton newInstance = (HungrySingleton) ois.readObject();
+//        HungrySingleton newInstance = (HungrySingleton) ois.readObject();
 //        EnumInstance newInstance = (EnumInstance) ois.readObject();
 //
-//        System.out.println(instance.getData());
-//        System.out.println(newInstance.getData());
-//        System.out.println(instance.getData() == newInstance.getData());
+//        System.out.println(instance/*.getData()*/);
+//        System.out.println(newInstance/*.getData()*/);
+//        System.out.println(instance/*.getData()*/ == newInstance/*.getData()*/);
 
-//        Class objectClass = HungrySingleton.class;
+        Class objectClass = HungrySingleton.class;
 //        Class objectClass = StaticInnerClassSingleton.class;
 
 //        Class objectClass = LazySingleton.class;
 //        Class objectClass = EnumInstance.class;
 ////
-//        Constructor constructor = objectClass.getDeclaredConstructor(String.class,int.class);
+        Constructor constructor = objectClass.getDeclaredConstructor(String.class,int.class);
 //
 //        constructor.setAccessible(true);
 //        EnumInstance instance = (EnumInstance) constructor.newInstance("Geely",666);
@@ -76,8 +76,8 @@ public class Test {
 //        System.out.println(newInstance);
 //        System.out.println(instance == newInstance);
 
-        EnumInstance instance = EnumInstance.getInstance();
-        instance.printTest();
+//        EnumInstance instance = EnumInstance.getInstance();
+//        instance.printTest();
 
 
     }
